@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    list-style: none; 
+}
+body{
+    font-family: 'Yusei Magic', sans-serif;
+    color:#14213D;
+    background-color: #e7e7e7;
+}
+main{
+    position: absolute;
+    width:90%;
+    max-width:1370px;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin:auto;
+    height:500px;
+}
+main .thetxt h1{
+    font-size:40px;
+    margin-bottom:20px;
+}
+main .thetxt p{
+    font-size: 20px;
+    width: 352px;
+    padding: 0 10px;
+    border-left: solid 3px #14213D;
+}
+/* FOR BOX VALUE*/
+main .allinpt{
+    margin-top:20px;
+}
+main .allinpt .inptvl{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+main .allinpt .inptvl .inpt1{
+    display: flex;
+    margin: 10px 7px;
+}
+main .allinpt .inptvl .inpt1 .forimg{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-color: #14213D;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+main .allinpt .inptvl .inpt1 .forimg img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+main .allinpt .inptvl .inpt1 input[type=text]{
+    padding: 0 8px;
+    width: 175px;
+    height: 40px;
+    border: solid 2px #14213D;
+    border-left: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+main .allinpt .inptvl .inpt1 input[type=text]:focus{outline: none;}
+main .allinpt .btn_The_result{
+    margin: 0 auto;
+    display: block;
+    height: 40px;
+    width: 215px;
+    margin-top: 20px;
+    border: none;
+    color: #FCA311;
+    background-color: #14213D;
+    border-radius: 3px;
+    font-family: 'Yusei Magic', sans-serif;
+    cursor: pointer;
+    transition:background-color 0.5s;
+    font-size: 16px;
+}
+main .allinpt .btn_The_result:focus{outline: none;}
+main .allinpt .btn_The_result:hover{background-color:#1e325c;}
+main .allinpt .res{
+    display: flex;
+    align-items: center;
+    width:370px;
+    margin: 0 auto;
+    border-bottom: solid 1px #14213D;
+    padding-bottom: 5px;
+    margin-top:20px;
+}
+main .allinpt .res img{width:45px;}
+main .allinpt .res p{height:25px; margin-top: 5px;}

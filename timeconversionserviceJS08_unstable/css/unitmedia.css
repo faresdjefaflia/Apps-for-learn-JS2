@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+@media (max-width:800px){
+    header{
+        height:90px;
+    }
+    header .iconhome{
+        margin-left: 43px;
+    }
+    header .iconr{
+        margin-left: 25px;
+    }
+    main{
+        position: static;
+        height:auto;
+        margin: 50px auto;
+    }
+    main section form{
+        width: auto;
+    }
+    main section form #txtnote{
+        font-size:10px;
+        top:20px;
+        width: 100%;
+    }
+    main .boxstart {
+        width:95%;
+    }
+    main .resulte article{
+        margin:20px 0;
+    }
+    main .resulte article h1 {
+        font-size: 17px;
+    }
+    main .resulte{
+        padding: 15px 0;
+    }
+    main section form img{
+        margin: 8px 10px 7px 30px;
+    }
+    main section form input[type=text]{
+        margin: 0 auto;
+        width:215px;
+    }
+    main .resulte article .boxresulte{
+        width:195px;
+        margin: 10px auto;
+    }
+
+
+}
+

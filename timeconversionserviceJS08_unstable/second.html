@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FOR SECOND</title>
+<link href="css/unit.css" rel="stylesheet" type="text/css">
+<link href="css/unitmedia.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+<!--
+   font-family: 'Noto Sans JP', sans-serif;
+-->
+</head>
+<body>
+   <header>
+      <a href="index.html">
+         <div class="iconhome">
+            <img src="img/home.png">
+         </div>
+      </a>
+      <a href="second.html">
+         <div class="iconhome iconr">
+            <img src="img/return.png">
+         </div>
+      </a>
+   </header>
+   <main>
+      <section class="boxstart">
+         <form>
+            <div class="inpt">
+               <img src="img/user.png">
+               <input id="msgsecond" type="text" placeholder="Enter units in second">
+            </div>
+            <button type="button" onclick="second()">Convert</button>
+            <p id="txtnote"></p>
+         </form>
+      </section>
+      <section class="resulte">
+         <article>
+            <h1>TO HOURS</h1>
+            <div class="boxresulte" placeholder="hour" >
+               <img src="img/notepad.png">
+               <p id="tohour3">0 hours</p>
+            </div>
+         </article>
+
+         <article>
+            <h1>TO MINUTS</h1>
+            <div class="boxresulte">
+               <img src="img/notepad.png">
+               <p id="tominuts3">0 minuts</p>
+            </div>
+         </article>
+
+         <article>
+            <h1>TO SECONDS</h1>
+            <div class="boxresulte">
+               <img src="img/notepad.png">
+               <p id="toseconds3">0 seconds</p>
+            </div>
+         </article>
+      </section>
+   </main>
+   <script src="js/script.js"></script>
+</body>
+</html>

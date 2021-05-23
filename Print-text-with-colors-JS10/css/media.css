@@ -1,0 +1,14 @@
+@charset "utf-8";
+@media (max-width:1000px){
+    #txt{
+        width:100%;
+    }
+    #select{
+        margin:10px 0;
+        width:100%;
+        display: block;
+    }
+    #btn{
+        width:100%;
+    }
+}
